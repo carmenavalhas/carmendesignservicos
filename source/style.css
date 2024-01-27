@@ -58,9 +58,67 @@ a {
 }
 
 a:hover {
-  transform: scale(1.2);
   color: #C8B097;
 }
+
+.phone:hover {
+  color: #C8B097;
+}
+
+
+.popup {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+
+.popup-content {
+  background-color: #F6EEE6;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888888;
+  width: 30%;
+  font-weight: bolder;
+}
+
+.popup-content button {
+  display: block;
+  margin: 0 auto;
+}
+
+.show {
+  display: block;
+}
+
+.numero {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+  font-style: normal;
+  font-size: 16px;
+}
+
+#closePopup{
+  text-transform: uppercase;
+  font-size: 9px;
+  padding: 5px;
+  background: #F6EEE6;
+  border: solid 0.5px;
+  border-radius: 20px;
+}
+
+#closePopup:hover {
+  color: #C8B097;
+  background: white;
+}
+
+
 
 @media (max-width: 900px) {
 
