@@ -33,6 +33,7 @@ h1 {
   font-size: 22px;
 }
 
+
 ul {
   list-style: none;
   margin-top: 20px;
@@ -84,10 +85,10 @@ a:hover {
 
 .popup-content {
   background-color: #F6EEE6;
-  margin: 10% auto;
+  margin: 30% auto;
   padding: 20px;
   border: 1px solid #888888;
-  width: 30%;
+  width: 60%;
   font-weight: bolder;
 }
 
